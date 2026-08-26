@@ -90,7 +90,7 @@ console.log(sumaNumeros)
 const sumBooleano = '8' + true //9
 console.log(sumBooleano)
                         //SI NO HAY STRING, JS OPERA!
-const sumNumber = 5 + true //5
+const sumNumber = 5 + true //6
 console.log(sumNumber) 
 
 const sumaNull = 5 + null
@@ -106,3 +106,23 @@ console.log('ARREGLADO:',resultadoFixed)
 
 resultadoParseo = parseFloat(resultadoFixed)
 console.log('RESULTADO REAL:',resultadoParseo)
+
+const sumString = '25'
+const sumNumero = 25
+const sumBoolean = true 
+
+console.log('----------------------')
+console.log(sumString + sumString) //CONCATENA
+console.log(sumString + sumNumero) //CONCATENA
+console.log(sumString + sumBoolean) //CONCATENA
+console.log('----------------------')
+
+console.log(sumNumero + sumNumero) //OPERA
+console.log(sumNumero + sumString) //CONCATENA
+console.log(sumNumero + sumBoolean) //OPERA
+console.log('----------------------')
+
+console.log(sumBoolean + sumBoolean) //OPERA
+console.log(sumBoolean + sumString) //CONCATENA
+console.log(sumBoolean + sumNumero) //OPERA
+console.log('----------------------')
