@@ -126,3 +126,4 @@ console.log(sumBoolean + sumBoolean) //OPERA
 console.log(sumBoolean + sumString) //CONCATENA
 console.log(sumBoolean + sumNumero) //OPERA
 console.log('----------------------')
+
